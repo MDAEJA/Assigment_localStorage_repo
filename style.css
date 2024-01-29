@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+.data{
+   
+    margin: auto auto;
+    /* background-color: aqua; */
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+.user-data{
+    font-size: 20px;
+    font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: yellow;
+   border-radius: 10px;
+   text-transform: capitalize;
+
+}
+.field{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
